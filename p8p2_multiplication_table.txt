@@ -1,0 +1,35 @@
+'''
+PROGRAM p8p2
+Write a program that prompts the user for a number and
+uses a while loop to generate the “multiplication table” for that number
+from 1 up to the number. For example, if the user were to enter “5”,
+the following table would be generated:
+
+1 2 3 4 5
+2 4 6 8 10
+3 6 9 12 15
+4 8 12 16 20
+5 10 15 20 25
+
+PSEUDO-CODE
+initialize i to 1
+prompt user for a number (which defines the table size as well)
+while i < number do
+    initialize j to 1
+    while j <= number
+        print i*j, set print cursor after a space (to get rid of the new line) with end =" "
+        increment j
+    print a new line print()
+    Increment i
+'''
+
+i = 1
+number = int(input("Please enter a number: "))
+while i <= number:
+    j = 1
+    while j <= number:
+        print(i*j, end = " ")
+        j+=1
+    print()
+    i+=1
+             
