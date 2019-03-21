@@ -1,4 +1,4 @@
-# Python mini programs
+# Python mini programming assignments
 
 Full Series / Score / Awards
 
